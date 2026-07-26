@@ -39,13 +39,17 @@ Simple card component displaying the image of a QR Code.
 
 ### What I learned
 
-article tag is better used for self-contained pieces of content that could stand alone, such as a blog post, a card or a product listing.
-I could also used a div, but I prefered practice semantic tags.
-I change br tag for span tags to avoid text wrapping when the card shrink.
+`<article>` tag is better used for self-contained pieces of content that could stand alone, such as a blog post, a card or a product listing. I could also use a `<div>` instead.
+
+Using `<span class="nowrap">` to avoid text wrapping when the card shrink is a better practice than using `<br>`.
+
+You can hide Claude Code right panel using `command + option + b`. The file tree left panel can be hide with `command + b`.
+
+I learnt how to write properly md files, because are required to edit this README.md.
+
+#### Simple QR Component
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
-
 <article>
   <img
     src="/images/image-qr-code.png"
@@ -63,6 +67,8 @@ I change br tag for span tags to avoid text wrapping when the card shrink.
 </article>
 ```
 
+#### Utility Class
+
 ```css
 .nowrap {
   white-space: nowrap;
@@ -71,18 +77,23 @@ I change br tag for span tags to avoid text wrapping when the card shrink.
 
 ### Continued development
 
-I want to keep practicing semantic tags and aria label, because I understand the concept, but I did not practice enough projects with more variety. Lets see on the coming projects how I can develop more intution.
+I want to keep practicing semantic tags and accessibility best practices with aria-label, aria-labelledby, role, and alt attributes because I understand the concept but haven't had enough project experience with more variety. Let's see in the upcoming projects how I can develop more intuition.
 
 ### Useful resources
 
-- [GitHub pages tutorial](https://www.youtube.com/watch?v=5XhxR9Vs6zc) - I'm a visual learner, so I used this tutorial to know how to deploy a simple website.
-- [Git and GitHub tutorial](https://www.youtube.com/watch?v=mBYSUUnMt9M&t=4931s) - Resource in Spanish, you will learn how to clone, push and pull a repo. Begginer friendly and there is an overview of terminology and concepts in the first minutes.
+- [GitHub pages tutorial](https://www.youtube.com/watch?v=5XhxR9Vs6zc) - Tutorial I used to deploy this website.
+- [Git and GitHub tutorial (in Spanish)](https://www.youtube.com/watch?v=mBYSUUnMt9M&t=4931s) - You will learn how to clone, push and pull a repo. Begginer friendly and there is an overview of terminology and concepts in the first part.
 
 ### AI Collaboration
 
-I am using Claude Code. Learn to hide the right panel using command + option + b. I prefer using its chat version in Claude app, it is more visually helpful. I ask about theory overview, the difference between using article, section and div tags. Explain me aria label, and asked for examples. Also I solicitud on chat for video link tutorials on accesibility. Generally, I used AI to ask for theory overview and examples that compare usages on tags.
+First, I tried using Claude Code, but I did not like how the interaction feels compare to Claude Chat on the desktop app. I ask in both tools the following questions:
+
+1. What is the difference between using `<article>`, `<figure>`, `<section>`, and `<div>`? Give me examples of how to use these tags correctly and incorrectly.
+2. Provide me with a theory overview of the `aria-label` and `aria-labelledby` attributes inside HTML tags.
+
+I realize that Claude Code is not that efficient to make reviews of theory, it is good to create boilerplate code, refactor specific parts and provide cognitive friction. But chat is better as a tutor making overviews, cheat sheets and providing better visuals.
 
 ## Author
 
 - Frontend Mentor - [@diegoloradigital](https://www.frontendmentor.io/profile/diegoloradigital)
-- X - [@diego*lora*](https://x.com/diego_lora_)
+- X - [@diego_lora\_](https://x.com/diego_lora_)
