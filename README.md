@@ -81,8 +81,14 @@ I want to keep practicing semantic tags and accessibility best practices with ar
 
 ### Useful resources
 
+#### Learning Materials
+
 - [GitHub pages tutorial](https://www.youtube.com/watch?v=5XhxR9Vs6zc) - Tutorial I used to deploy this website.
 - [Git and GitHub tutorial (in Spanish)](https://www.youtube.com/watch?v=mBYSUUnMt9M&t=4931s) - You will learn how to clone, push and pull a repo. Begginer friendly and there is an overview of terminology and concepts in the first part.
+
+#### UI Tools
+
+- [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/) - Use for to create box shadow in a visually way instead of hardcoding pixels by guess.
 
 ### AI Collaboration
 
